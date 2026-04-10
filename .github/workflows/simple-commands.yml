@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   build:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Echo Hello
         run: echo "Hello, World!"
